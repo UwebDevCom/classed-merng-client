@@ -6,7 +6,7 @@ import { setContext } from '@apollo/client/link/context';
 
 
 const link = createHttpLink({
-    uri: 'http://localhost:5000',
+    uri: 'https://tut-gql-react.herokuapp.com/',
 });
 
 
